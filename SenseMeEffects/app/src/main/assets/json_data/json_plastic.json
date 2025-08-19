@@ -1,0 +1,108 @@
+[
+  {
+    "enum_des": "高阶瘦脸",
+    "uid": "senior_sculpt",
+    "st_beauty_type": 2011,
+    "display_des_res_id": "reshape_high_face",
+    "enum_name": "TYPE_MX_HIGH_THIN_FACE",
+    "select_icon_nor_res": "ic_camera_hight_thin_face_unselected",
+    "select_icon_press_res": "ic_camera_hight_thin_face_selected",
+    "def_strength": 0,
+    "no_seekbar": true,
+    "click_goto_enum_num": "TYPE_MX_HIGH_THIN_FACE"
+  },
+  {
+    "enum_des": "下巴",
+    "uid": "effect_beauty_plastic_chin_length",
+    "st_beauty_type": 303,
+    "display_des_res_id": "plastic_chin_length",
+    "enum_name": "TYPE_WZH_3",
+    "select_icon_nor_res": "beauty_chin_unselected",
+    "select_icon_press_res": "beauty_chin_selected",
+    "def_strength": 0,
+    "start_center": true
+  },
+  {
+    "enum_des": "额头",
+    "uid": "effect_beauty_plastic_hairline_height",
+    "st_beauty_type": 304,
+    "display_des_res_id": "plastic_hairline_height",
+    "enum_name": "TYPE_WZH_4",
+    "select_icon_nor_res": "beauty_forehead_unselected",
+    "select_icon_press_res": "beauty_forehead_selected",
+    "def_strength": -0.60,
+    "start_center": true
+  },
+
+  {
+    "enum_des": "瘦颧骨",
+    "uid": "effect_beauty_plastic_shrink_cheekbone",
+    "st_beauty_type": 318,
+    "display_des_res_id": "plastic_cheekbone",
+    "enum_name": "TYPE_WZH_18",
+    "select_icon_nor_res": "beauty_thin_cheekbone_unselected",
+    "select_icon_press_res": "beauty_thin_cheekbone_selected",
+    "def_strength": 0.4
+  },
+  {
+    "enum_des": "瘦鼻翼",
+    "uid": "effect_beauty_plastic_narrow_nose",
+    "st_beauty_type": 306,
+    "display_des_res_id": "plastic_narrow_nose",
+    "enum_name": "TYPE_WZH_6",
+    "select_icon_nor_res": "beauty_thin_nose_unselected",
+    "select_icon_press_res": "beauty_thin_nose_selected",
+    "def_strength": 0.20
+  },
+  {
+    "enum_des": "嘴型",
+    "uid": "effect_beauty_plastic_mouth_size",
+    "st_beauty_type": 309,
+    "display_des_res_id": "plastic_mouth_size",
+    "enum_name": "TYPE_WZH_9",
+    "select_icon_nor_res": "beauty_mouth_type_unselected",
+    "select_icon_press_res": "beauty_mouth_type_selected",
+    "def_strength": 0.3,
+    "start_center": true
+  },
+  {
+    "enum_des": "祛法令纹",
+    "uid": "effect_beauty_plastic_remove_nasolabial_folds",
+    "st_beauty_type": 316,
+    "display_des_res_id": "plastic_wrinkle",
+    "enum_name": "TYPE_WZH_16",
+    "select_icon_nor_res": "beauty_remove_nasolabial_folds_unselected",
+    "select_icon_press_res": "beauty_remove_nasolabial_folds_selected",
+    "def_strength": 0.8
+  },
+  {
+    "enum_des": "开外眼角",
+    "uid": "effect_beauty_plastic_open_external_canthus",
+    "st_beauty_type": 319,
+    "display_des_res_id": "plastic_open_external_canthus",
+    "enum_name": "TYPE_WZH_19",
+    "select_icon_nor_res": "beauty_open_external_canthus_unselected",
+    "select_icon_press_res": "beauty_open_external_canthus_selected",
+    "def_strength": 0
+  },
+  {
+    "enum_des": "亮眼",
+    "uid": "effect_beauty_plastic_bright_eye",
+    "st_beauty_type": 314,
+    "display_des_res_id": "plastic_bright_eye",
+    "enum_name": "TYPE_WZH_14",
+    "select_icon_nor_res": "beauty_bright_eye_unselected",
+    "select_icon_press_res": "beauty_bright_eye_selected",
+    "def_strength": 0
+  },
+  {
+    "enum_des": "祛黑眼圈",
+    "uid": "effect_beauty_plastic_remove_dark_circles",
+    "st_beauty_type": 315,
+    "display_des_res_id": "plastic_black_eye",
+    "enum_name": "TYPE_WZH_15",
+    "select_icon_nor_res": "beauty_remove_dark_circles_unselected",
+    "select_icon_press_res": "beauty_remove_dark_circles_selected",
+    "def_strength": 0.80
+  }
+]

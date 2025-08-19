@@ -1,0 +1,62 @@
+[
+  {
+    "uid": "whiten2_back_button",
+    "enum_des": "美白2返回按钮",
+    "display_des_res_id": "basic_whiten2",
+    "st_beauty_type": 0,
+    "select_icon_nor_res": "ic_camera_hight_face_back",
+    "select_icon_press_res": "ic_camera_hight_face_back",
+    "def_strength": 0,
+    "enum_name": "TYPE_WHITENING_BACK",
+    "click_goto_enum_num": "TYPE_BASE",
+    "no_seekbar": true
+  },
+  {
+    "uid": "whiten2_nature",
+    "enum_des": "美白2-自然",
+    "display_des_res_id": "basic_whiten_nature",
+    "st_beauty_type": 101,
+    "select_icon_nor_res": "beauty_whiten_unselected",
+    "select_icon_press_res": "beauty_whiten_selected",
+    "mutual": "mutual_whitten",
+    "mutual_arr": ["whiten1", "whiten2", "whiten3", "whiten4", "whiten2_pink", "whiten2_black"],
+    "def_strength": 0,
+    "enum_name": "TYPE_BASIC_2_NATURE",
+    "mode": null,
+    "need_open_whiten_skin_mask": false,
+    "skip_set_when_reset": true,
+    "beauty_asset_path": "whiten_gif.zip"
+  },
+  {
+    "uid": "whiten2_pink",
+    "enum_des": "美白2-粉嫩",
+    "display_des_res_id": "basic_whiten_pink",
+    "st_beauty_type": 101,
+    "mutual": "mutual_whitten",
+    "mutual_arr": ["whiten1", "whiten2", "whiten3", "whiten4", "whiten2_nature", "whiten2_black"],
+    "select_icon_nor_res": "beauty_whiten_unselected",
+    "select_icon_press_res": "beauty_whiten_selected",
+    "def_strength": 0,
+    "enum_name": "TYPE_BASIC_2_PINK",
+    "mode": null,
+    "need_open_whiten_skin_mask": false,
+    "skip_set_when_reset": true,
+    "beauty_asset_path": "whiten_pink.zip"
+  },
+  {
+    "uid": "whiten2_black",
+    "enum_des": "美白2-美黑",
+    "display_des_res_id": "basic_whiten_black",
+    "st_beauty_type": 101,
+    "mutual_arr": ["whiten1", "whiten2", "whiten3", "whiten4", "whiten2_nature", "whiten2_pink"],
+    "mutual": "mutual_whitten",
+    "select_icon_nor_res": "beauty_whiten_unselected",
+    "select_icon_press_res": "beauty_whiten_selected",
+    "def_strength": 0,
+    "enum_name": "TYPE_BASIC_2_BLACK",
+    "mode": null,
+    "skip_set_when_reset": true,
+    "need_open_whiten_skin_mask": false,
+    "beauty_asset_path": "whiten_black.zip"
+  }
+]

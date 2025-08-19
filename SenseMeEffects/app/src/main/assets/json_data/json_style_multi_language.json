@@ -1,0 +1,400 @@
+[
+  {
+    "zip_name": "淡颜",
+    "zh_des": "淡雅",
+    "dis_name_res_id": "str_style_elegant"
+  },
+  {
+    "zip_name": "淡雅",
+    "zh_des": "淡雅",
+    "dis_name_res_id": "str_style_elegant"
+  },
+  {
+    "zip_name": "白茶2",
+    "zh_des": "清茉",
+    "dis_name_res_id": "str_style_qing_mo"
+  },
+  {
+    "zip_name": "清茉",
+    "zh_des": "清茉",
+    "dis_name_res_id": "str_style_qing_mo"
+  },
+  {
+    "zip_name": "千金妆",
+    "zh_des": "贵气妆",
+    "dis_name_res_id": "str_style_noble"
+  },
+  {
+    "zip_name": "贵气妆",
+    "zh_des": "贵气妆",
+    "dis_name_res_id": "str_style_noble"
+  },
+  {
+    "zip_name": "兔系妆",
+    "zh_des": "萌兔妆",
+    "dis_name_res_id": "str_style_rabbit"
+  },
+  {
+    "zip_name": "萌兔妆",
+    "zh_des": "萌兔妆",
+    "dis_name_res_id": "str_style_rabbit"
+  },
+  {
+    "zip_name": "甜心女高",
+    "zh_des": "樱花少女",
+    "dis_name_res_id": "str_style_sakura_girl"
+  },
+  {
+    "zip_name": "樱花少女",
+    "zh_des": "樱花少女",
+    "dis_name_res_id": "str_style_sakura_girl"
+  },
+  {
+    "zip_name": "女高学姐",
+    "zh_des": "校园学姐",
+    "dis_name_res_id": "str_style_campus_senior"
+  },
+  {
+    "zip_name": "校园学姐",
+    "zh_des": "校园学姐",
+    "dis_name_res_id": "str_style_campus_senior"
+  },
+  {
+    "zip_name": "头像感",
+    "zh_des": "橘韵",
+    "dis_name_res_id": "str_style_orange"
+  },
+  {
+    "zip_name": "橘韵",
+    "zh_des": "橘韵",
+    "dis_name_res_id": "str_style_orange"
+  },
+  {
+    "zip_name": "美颜1",
+    "dis_name_res_id": "style_meiyan1"
+  },
+  {
+    "zip_name": "美颜2",
+    "dis_name_res_id": "style_meiyan2"
+  },
+  {
+    "zip_name": "美颜3",
+    "dis_name_res_id": "style_meiyan3"
+  },
+  {
+    "zip_name": "C位2",
+    "dis_name_res_id": "style_cwei2"
+  },
+  {
+    "zip_name": "纯爱",
+    "dis_name_res_id": "style_chunai"
+  },
+  {
+    "zip_name": "女神",
+    "dis_name_res_id": "style_nvshen"
+  },
+  {
+    "zip_name": "通勤",
+    "dis_name_res_id": "style_tongqin"
+  },
+  {
+    "zip_name": "质感1",
+    "dis_name_res_id": "style_zhigan1"
+  },
+  {
+    "zip_name": "质感2",
+    "dis_name_res_id": "style_zhigan2"
+  },
+  {
+    "zip_name": "素颜",
+    "dis_name_res_id": "style_suyan"
+  },
+  {
+    "zip_name": "自然",
+    "dis_name_res_id": "style_ziran"
+  },
+  {
+    "zip_name": "质感3",
+    "dis_name_res_id": "style_zhigan3"
+  },
+  {
+    "zip_name": "淡妆",
+    "dis_name_res_id": "style_danzhuang"
+  },
+  {
+    "zip_name": "英俊",
+    "dis_name_res_id": "style_yingjun"
+  },
+  {
+    "zip_name": "星辰",
+    "dis_name_res_id": "style_xingchen"
+  },
+  {
+    "zip_name": "气色",
+    "dis_name_res_id": "style_qise"
+  },
+  {
+    "zip_name": "万能",
+    "dis_name_res_id": "style_wanneng"
+  },
+  {
+    "zip_name": "星橙",
+    "dis_name_res_id": "style_xingcheng"
+  },
+  {
+    "zip_name": "纯爱",
+    "dis_name_res_id": "style_chunai"
+  },
+  {
+    "zip_name": "痞幼",
+    "dis_name_res_id": "style_piyou"
+  },
+  {
+    "zip_name": "粉兔",
+    "dis_name_res_id": "style_fentu"
+  },
+  {
+    "zip_name": "精灵",
+    "dis_name_res_id": "style_jingling"
+  },
+  {
+    "zip_name": "可爱",
+    "dis_name_res_id": "style_keai"
+  },
+  {
+    "zip_name": "千金",
+    "dis_name_res_id": "style_qianjin"
+  },
+  {
+    "zip_name": "韩式学院",
+    "dis_name_res_id": "style_hanshixueyuan"
+  },
+  {
+    "zip_name": "清纯初恋",
+    "dis_name_res_id": "style_qingchunchulian"
+  },
+  {
+    "zip_name": "宝宝",
+    "dis_name_res_id": "style_baobao"
+  },
+  {
+    "zip_name": "硬朗",
+    "dis_name_res_id": "style_yinglang"
+  },
+  {
+    "zip_name": "阳光",
+    "dis_name_res_id": "style_yangguang"
+  },
+  {
+    "zip_name": "学妹",
+    "dis_name_res_id": "style_xuemei"
+  },
+  {
+    "zip_name": "学姐",
+    "dis_name_res_id": "style_xuejie"
+  },
+  {
+    "zip_name": "仙子毛",
+    "dis_name_res_id": "style_xianzimao"
+  },
+  {
+    "zip_name": "女神",
+    "dis_name_res_id": "style_nvshen"
+  },
+  {
+    "zip_name": "牛奶",
+    "dis_name_res_id": "style_niunai"
+  },
+  {
+    "zip_name": "酷帅",
+    "dis_name_res_id": "style_kushuai"
+  },
+  {
+    "zip_name": "精致",
+    "dis_name_res_id": "style_jingzhi"
+  },
+  {
+    "zip_name": "纯欲",
+    "dis_name_res_id": "style_chunyu"
+  },
+  {
+    "zip_name": "初恋",
+    "dis_name_res_id": "style_chulian"
+  },
+  {
+    "zip_name": "茶艺",
+    "dis_name_res_id": "style_chayi"
+  },
+  {
+    "zip_name": "白茶",
+    "dis_name_res_id": "style_baicha"
+  },
+  {
+    "zip_name": "奶杏",
+    "dis_name_res_id": "style_naixing"
+  },
+  {
+    "zip_name": "红丝绒",
+    "dis_name_res_id": "style_hongsirong"
+  },
+  {
+    "zip_name": "油画",
+    "dis_name_res_id": "style_youhua"
+  },
+  {
+    "zip_name": "减龄2",
+    "dis_name_res_id": "style_jianling2"
+  },
+  {
+    "zip_name": "欧美",
+    "dis_name_res_id": "style_oumei"
+  },
+  {
+    "zip_name": "微醺",
+    "dis_name_res_id": "style_weixun"
+  },
+  {
+    "zip_name": "甜美",
+    "dis_name_res_id": "style_tianmei"
+  },
+  {
+    "zip_name": "碎钻",
+    "dis_name_res_id": "style_suizuan"
+  },
+  {
+    "zip_name": "少女2",
+    "dis_name_res_id": "style_shaonv2"
+  },
+  {
+    "zip_name": "少女",
+    "dis_name_res_id": "style_shaonv"
+  },
+  {
+    "zip_name": "水蜜桃",
+    "dis_name_res_id": "style_shuimitao"
+  },
+  {
+    "zip_name": "雀斑",
+    "dis_name_res_id": "style_queban"
+  },
+  {
+    "zip_name": "氧气",
+    "dis_name_res_id": "style_yangqi"
+  },
+  {
+    "zip_name": "葡萄冰",
+    "dis_name_res_id": "style_putaobing"
+  },
+  {
+    "zip_name": "欧美2",
+    "dis_name_res_id": "style_oumei2"
+  },
+  {
+    "zip_name": "男团",
+    "dis_name_res_id": "style_nantuan"
+  },
+  {
+    "zip_name": "蜜桃",
+    "dis_name_res_id": "style_mitao"
+  },
+  {
+    "zip_name": "梦幻妆",
+    "dis_name_res_id": "style_menghuanzhuang"
+  },
+  {
+    "zip_name": "美痣",
+    "dis_name_res_id": "style_meizhi"
+  },
+  {
+    "zip_name": "猫眼妆",
+    "dis_name_res_id": "style_maoyanzhuang"
+  },
+  {
+    "zip_name": "蓝色清透",
+    "dis_name_res_id": "style_lanseqingtou"
+  },
+  {
+    "zip_name": "蓝风",
+    "dis_name_res_id": "style_lanfeng"
+  },
+  {
+    "zip_name": "好运",
+    "dis_name_res_id": "style_haoyun"
+  },
+  {
+    "zip_name": "橘色元气",
+    "dis_name_res_id": "style_juqiyuanqi"
+  },
+  {
+    "zip_name": "吉普赛",
+    "dis_name_res_id": "style_jipusai"
+  },
+  {
+    "zip_name": "减龄",
+    "dis_name_res_id": "style_jianling"
+  },
+  {
+    "zip_name": "混血",
+    "dis_name_res_id": "style_hunxue"
+  },
+  {
+    "zip_name": "红酒",
+    "dis_name_res_id": "style_hongjiu"
+  },
+  {
+    "zip_name": "红酒2",
+    "dis_name_res_id": "style_hongjiu2"
+  },
+  {
+    "zip_name": "高级金棕",
+    "dis_name_res_id": "style_gaojijinzong"
+  },
+  {
+    "zip_name": "粉红无辜",
+    "dis_name_res_id": "style_fenhongwugu"
+  },
+  {
+    "zip_name": "超A星星妆",
+    "dis_name_res_id": "style_chaoaxingzhuang"
+  },
+  {
+    "zip_name": "C位",
+    "dis_name_res_id": "style_cwei"
+  },
+  {
+    "zip_name": "白色眼线",
+    "dis_name_res_id": "style_baiseyanxian"
+  },
+  {
+    "zip_name": "暗调",
+    "dis_name_res_id": "style_andiao"
+  },
+  {
+    "zip_name": "湛蓝",
+    "dis_name_res_id": "style_zhanlan"
+  },
+  {
+    "zip_name": "猫眼妆",
+    "dis_name_res_id": "style_maoyanzhuang"
+  },
+  {
+    "zip_name": "蓝色清透",
+    "dis_name_res_id": "style_lanseqingtou"
+  },
+  {
+    "zip_name": "橘色元气",
+    "dis_name_res_id": "style_juqiyuanqi"
+  },
+  {
+    "zip_name": "粉红无辜",
+    "dis_name_res_id": "style_fenhongwugu"
+  },
+  {
+    "zip_name": "暗调妆容",
+    "dis_name_res_id": "style_andiao"
+  },
+  {
+    "zip_name": "baicha2",
+    "dis_name_res_id": "style_baicha2"
+  }
+]

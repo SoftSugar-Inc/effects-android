@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    tools:background="@android:color/holo_blue_bright"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_language"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_chines"
+            style="@style/BottomDlgStyle"
+            android:text="中文" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/tv_en"
+            style="@style/BottomDlgStyle"
+            android:text="英文" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/tv_korean"
+            style="@style/BottomDlgStyle"
+            android:text="韩语" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/tv_japan"
+            style="@style/BottomDlgStyle"
+            android:text="日语" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#dcdcdc" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            style="@style/BottomDlgStyle"
+            android:text="取消" />
+    </LinearLayout>
+
+
+</FrameLayout>

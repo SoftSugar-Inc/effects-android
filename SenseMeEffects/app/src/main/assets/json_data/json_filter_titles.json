@@ -1,0 +1,27 @@
+[
+  {
+    "uid": "filter_portrait",
+    "enum_des": "人物",
+    "display_des_res_id": "filter_portrait",
+    "enum_name": "TYPE_PEOPLE",
+    "selected": true
+  },
+  {
+    "uid": "filter_scenery",
+    "enum_des": "风景",
+    "display_des_res_id": "filter_scenery",
+    "enum_name": "TYPE_SCENERY"
+  },
+  {
+    "uid": "filter_still_life",
+    "enum_des": "静物",
+    "display_des_res_id": "filter_still_life",
+    "enum_name": "TYPE_STILL_LIFE"
+  },
+  {
+    "uid": "filter_food",
+    "enum_des": "美食",
+    "display_des_res_id": "filter_food",
+    "enum_name": "TYPE_FOOD"
+  }
+]

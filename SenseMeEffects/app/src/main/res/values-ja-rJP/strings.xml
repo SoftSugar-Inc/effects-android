@@ -1,0 +1,543 @@
+<resources>
+    <string name="app_name">SenseAR</string>
+    <string name="video_effect">视频特效</string>
+    <string name="image_effect">图片特效</string>
+    <string name="cpu_filter">CPU滤镜</string>
+    <string name="loading">データローティング</string>
+    <string name="powered_by">Softsugar V9.4.0</string>
+
+    <!--interaction tabs-->
+    <string name="frame_radio">frame elapsed：</string>
+    <string name="cpu_radio">CPU utilization：</string>
+    <string name="saving_image">画像が保存されました</string>
+    <string name="debug_info">Single frame time：%1$dms\nFrame rate：%2$f\nCPU usage：%3$s</string>
+
+    <string name="dlg_title">ヒント</string>
+    <string name="dlg_des">Tap the bottom of the screen to take a picture, and long press to record a short video!</string>
+    <string name="dlg_ok">確認</string>
+    <string name="dlg_ok2">確認</string>
+    <string name="dlg_cancel">取り消す</string>
+    <string name="dlg_give_up">動画の保存を取り消す</string>
+    <string name="dlg_loading">データローティング</string>
+
+
+    <!--主要美颜分类 start-->
+    <string name="menu_title_full_beauty">スタイル</string>
+    <string name="menu_title_style">風格メイクアップ</string>
+    <string name="menu_title_base">基礎</string>
+    <string name="menu_title_reshape">高級</string>
+    <string name="menu_title_plastic">整形</string>
+    <string name="menu_title_3d_plastic">3D整形</string>
+    <string name="menu_title_filter">フィルター</string>
+    <string name="menu_title_tone">調整</string>
+    <string name="menu_title_bokeh">背景ぼかし</string>
+    <string name="menu_title_mt">ボディ</string>
+    <!--主要美颜分类 end-->
+
+    <!--整体效果 start-->
+    <string name="whole_filter">フィルター</string>
+    <string name="whole_default">Default</string>
+    <string name="whole_tianran">Natural</string>
+    <string name="whole_sweetgirl">Honey</string>
+    <string name="whole_oxygen">oxygen</string>
+    <string name="whole_redwine">redwine</string>
+    <string name="whole_sweet">sweet</string>
+    <string name="whole_western">Frozen</string>
+    <string name="whole_whitetea">whiteTea</string>
+    <string name="whole_zhigan">sense</string>
+    <string name="whole_deep">deep</string>
+    <string name="whole_zipaiyuanqi">Energetic selfie</string>
+    <string name="whole_zipaiziran">Selfie live</string>
+    <string name="whole_zhiboziran">Natural live</string>
+    <string name="whole_zhiboyuanqi">Energetic live</string>
+    <string name="whole_zhiboyuanhua">Original live</string>
+    <!--整体效果 end-->
+
+    <!--基础美颜 start-->
+    <string name="basic_bokeh1">背景ぼかし1</string>
+    <string name="basic_bokeh2">背景ぼかし2</string>
+    <string name="basic_whiten">美白</string>
+    <string name="basic_whiten1">美白1</string>
+    <string name="basic_whiten2">美白2</string>
+    <string name="basic_whiten3">美白3</string>
+    <string name="basic_whiten4">美白4</string>
+    <string name="basic_redden">ロージー</string>
+    <string name="basic_smooth">美肌</string>
+    <string name="basic_smooth1">美肌１</string>
+    <string name="basic_smooth2">美肌２</string>
+    <string name="basic_smooth3">美肌3</string>
+    <string name="basic_smooth4">美肌4</string>
+    <string name="basic_smooth_gan">Gan美肌</string>
+    <string name="basic_btn_face">顔の</string>
+    <string name="basic_btn_body">全身</string>
+    <string name="basic_face_strength">顔の強さ</string>
+    <string name="basic_body_strength">体力</string>
+    <string name="str_full_body">体のマイクロダーマブレーション</string>
+    <!--基础美颜 end-->
+
+    <!--美形 start-->
+    <string name="reshape_shrink_face">痩せ顔</string>
+    <string name="reshape_high_face">小顔</string>
+    <string name="reshape_enlarge_eye">大きい目</string>
+    <string name="reshape_shrink_jaw">小顔</string>
+    <string name="reshape_narrow_face">スリム顔</string>
+    <string name="reshape_round_eye">丸い目</string>
+
+    <string name="reshape_nature">自然</string>
+    <string name="reshape_nvsh">女神</string>
+    <string name="reshape_long_face">長顔</string>
+    <string name="reshape_round_face">丸顔</string>
+    <!--美形 end-->
+
+    <!-- 微整形 start -->
+    <string name="plastic_thinner_mouth_corner">微笑みの唇</string>
+    <string name="plastic_thinner_hair_line">生え際</string>
+    <string name="plastic_thinner_eye_heigh">目の上下移動</string>
+    <string name="plastic_thinner_head">頭</string>
+    <string name="plastic_thinner_head2">頭２</string>
+    <string name="plastic_thin_face">シャープ顔</string>
+    <string name="plastic_chin_length">あご先</string>
+    <string name="plastic_hairline_height">おでこ</string>
+    <string name="plastic_apple_musle">頬</string>
+    <string name="plastic_jaw">痩せ顎</string>
+    <string name="plastic_narrow_nose">鼻翼縮小</string>
+    <string name="plastic_nose_length">鼻延ばす</string>
+    <string name="plastic_profile_rhinoplasty">隆鼻</string>
+    <string name="plastic_mouth_size">口型</string>
+    <string name="plastic_philtrum_length">人中</string>
+    <string name="plastic_eye_distance">目の間隔</string>
+    <string name="plastic_eye_angle">目の角度</string>
+    <string name="plastic_open_canthus">眼角</string>
+    <string name="plastic_bright_eye">目のキラキラ</string>
+    <string name="plastic_black_eye">目のクマ</string>
+    <string name="plastic_wrinkle">ほうれい線</string>
+    <string name="plastic_white_teeth">ホワイトニング</string>
+    <string name="plastic_cheekbone">頬骨</string>
+
+    <string name="plastic_fuller_lips">口唇拡大術</string>
+    <string name="plastic_mouth_width">口幅</string>
+    <string name="plastic_brow_height">眉毛の高さ</string>
+    <string name="plastic_brow_thickness">眉毛の太さ</string>
+    <string name="plastic_brow_distance">眉間距離</string>
+    <string name="plastic_face_v_shape">Vチン</string><!-- 从下颌角到下巴的V脸效果 -->
+    <string name="plastic_face_full_vshape">V面</string><!-- V脸 整脸的V脸效果 -->
+    <string name="plastic_nose_tip">鼻</string>
+    <string name="plastic_nose_bridge">鼻梁</string>
+    <string name="plastic_enlarge_pupil">瞳孔の大きさ</string>
+    <!-- 微整形 end -->
+
+    <!-- 3d-微整形-眼睛 start -->
+    <string name="plastic_3d_eye_1">目の比例</string>
+    <string name="plastic_3d_eye_2">目の高さ</string>
+    <string name="plastic_3d_eye_3">目の間隔</string>
+    <string name="plastic_3d_eye_4">目尻</string>
+    <string name="plastic_3d_eye_5">目の深さ</string>
+    <string name="plastic_3d_eye_6">目のくまの深さ</string>
+    <string name="plastic_3d_eye_7">目の角度</string>
+    <string name="plastic_3d_eye_outereyetail">目尻</string>
+    <string name="plastic_3d_eye_innercorner">眼角</string>
+    <!-- 3d-微整形-眼睛 end -->
+
+    <!-- 3d-微整形-鼻子 start -->
+    <string name="plastic_3d_nose_1">鼻の比例</string>
+    <string name="plastic_3d_nose_2">鼻幅</string>
+    <string name="plastic_3d_nose_3">鼻の長さ</string>
+    <string name="plastic_3d_nose_4">鼻の高さ</string>
+    <string name="plastic_3d_nose_5">鼻筋</string>
+    <string name="plastic_3d_nose_6">鼻背</string>
+    <string name="plastic_3d_nose_7">鼻先</string>
+    <string name="plastic_3d_nose_8">鼻翼</string>
+    <!-- 3d-微整形-眼睛 end -->
+
+    <!-- 3d-微整形-嘴巴 start -->
+    <string name="plastic_3d_mouth_1">口の比例</string>
+    <string name="plastic_3d_mouth_2">口の高さ</string>
+    <string name="plastic_3d_mouth_3">口幅</string>
+    <string name="plastic_3d_mouth_4">口の深さ</string>
+    <string name="plastic_3d_mouth_5">唇の厚さ</string>
+    <!-- 3d-微整形-嘴巴 end -->
+
+    <!-- 3d-微整形-8.5.1新增 start -->
+    <string name="micro_3d_forehead">おでこ</string>
+    <string name="micro_3d_nasolabial">ほうれい線</string>
+    <string name="micro_3d_tearditch">ゴルゴライン</string>
+    <string name="micro_3d_browbone">眉骨</string>
+    <string name="micro_3d_raiseeyebrows">上がり眉</string>
+    <string name="micro_3d_temple">こめかみ</string>
+    <string name="micro_3d_foreheadtwo">額の横</string>
+    <!-- 3d-微整形-8.5.1新增 end -->
+
+    <!-- 3d-微整形-头部 start -->
+    <string name="plastic_3d_head_1">頭の比例</string>
+    <string name="plastic_3d_head_2">頭幅</string>
+    <!-- 3d-微整形-头部 end -->
+
+    <!-- 3d-微整形-脸部 start -->
+    <string name="plastic_3d_face_1">顔の肉付き</string>
+    <string name="plastic_3d_face_2">顔の角度</string>
+    <string name="plastic_3d_face_3">顔を拡大</string>
+    <string name="plastic_3d_face_4">顔を縮小</string>
+    <string name="plastic_3d_face_5">アヒル口</string>
+    <string name="plastic_3d_face_6">微笑む口</string>
+    <string name="plastic_3d_face_7">リンゴ肌</string>
+    <string name="plastic_3d_face_8">輪郭</string>
+    <!-- 3d-微整形-脸部 end -->
+
+    <!-- 基础美颜底部分组 start -->
+    <string name="str_bottom_group_eye">目</string>
+    <string name="str_bottom_group_nose">鼻</string>
+    <string name="str_bottom_group_mouth">口</string>
+    <string name="str_bottom_group_head">頭</string>
+    <string name="str_bottom_group_face">顔</string>
+    <string name="str_bottom_group_face_shape">顔の形</string>
+    <string name="str_bottom_group_eyebrow">眉毛</string>
+    <!-- 基础美颜底部分组 end -->
+
+    <!-- 美妆 start -->
+    <string name="make_up_whole">化粧セット</string>
+    <string name="make_up_hair">髪染め</string>
+    <string name="make_up_lipstick">口紅</string>
+    <string name="make_up_blusher">頬紅</string>
+    <string name="make_up_highlight">輪郭調整</string>
+    <string name="make_up_brow">眉毛</string>
+    <string name="make_up_eye_shadow">アイシャドウ</string>
+    <string name="make_up_eye_liner">アイライン</string>
+    <string name="make_up_eyelash">まつ毛</string>
+    <string name="make_up_eyeball">カラーコンタクト</string>
+    <!-- 美妆 end -->
+
+    <!-- 滤镜 start -->
+    <string name="filter_texture">テクスチャ</string>
+    <string name="filter_film">膜</string>
+    <string name="filter_vintage">レトロ</string>
+    <string name="filter_portrait">人物</string>
+    <string name="filter_scenery">風景</string>
+    <string name="filter_still_life">物体</string>
+    <string name="filter_food">食物</string>
+    <!-- 滤镜 end -->
+
+    <!-- 调整 start -->
+    <string name="adjust_contrast">コントラスト</string>
+    <string name="adjust_saturation">飽和度</string>
+    <string name="adjust_sharpen">シャープ</string>
+    <string name="adjust_denoising">ノイズ除去</string>
+    <!-- 调整 end -->
+
+    <!--设置 start-->
+    <string name="set_resolution">Resolution:</string>
+    <string name="set_performance">性能</string>
+    <string name="set_terms">使用条約</string>
+    <string name="set_language">言語</string>
+    <string name="set_yuv_rgba">Replay</string>
+    <!--设置 end-->
+
+    <!-- camera页 start -->
+    <string name="camera_contrast">Comparison</string>
+    <string name="camera_sticker">エフェクト</string>
+    <string name="camera_filter">フィルタ</string>
+    <string name="camera_effect">美顔</string>
+    <string name="camera_clear">クリア</string>
+    <string name="camera_reset">リセット</string>
+    <string name="load_image_title">명확한 얼굴 사진을 촬영하세요</string>
+    <string name="load_image_album">앨범</string>
+    <string name="load_image_take">Photo</string>
+    <string name="load_image_video">動画</string>
+    <string name="camera_save">保存</string>
+    <string name="camera_save_video">save video</string>
+    <string name="camera_preview">preview</string>
+    <string name="frame_rate">frame rate:</string>
+    <string name="adjust_clear">解像度</string>
+
+    <string name="plastic_open_external_canthus">외쪽 눈 모양 크게</string>
+    <string name="camera_video">動画</string>
+    <string name="camera_take">写真</string>
+    <string name="camera_style">スタイル</string>
+    <string name="camera_cartoon">マンガ顔</string>
+
+    <string name="camera_ai_paint">AI画像生成</string>
+    <string name="camera_all">全部</string>
+    <string name="camera_nature">ナチュラル</string>
+    <string name="camera_light">ライト</string>
+    <string name="camera_popular">ポピュラー</string>
+    <!-- camera页 end -->
+
+    <!-- 特效列表 start -->
+    <string name="sticker_new">新規</string>
+    <string name="sticker_2D">2D</string>
+    <string name="sticker_3D">3D</string>
+    <string name="sticker_handle">ジェスチャー</string>
+    <string name="sticker_bg">分割</string>
+    <string name="sticker_bx">変形</string>
+    <string name="sticker_lizi">粒子</string>
+    <string name="sticker_cat">動物</string>
+    <string name="sticker_big_head">頭を大きくする</string>
+    <string name="sticker_clone">影分身</string>
+    <string name="sticker_face">顔パネル</string>
+    <string name="sticker_play">組合せ</string>
+    <string name="sticker_track">物体トラッキング</string>
+    <string name="sticker_avatar">Avatar</string>
+    <string name="sticker_tryon">TRYON</string>
+    <string name="sticker_gan">GAN</string>
+    <string name="sticker_cartoon">マンガ顔</string>
+    <string name="sticker_local">ローカル</string>
+    <string name="sticker_add">積み重ね</string>
+    <string name="sticker_sync">同期</string>
+    <string name="sticker_img">カメラロール</string>
+    <!-- 特效列表 end -->
+
+    <!-- 吐司 start -->
+    <string name="toast_save_img">画像保存成功</string>
+    <string name="toast_save_video">動画保存成功</string>
+    <string name="toast_short_video">動画が2sより短いため、再度撮ってください</string>
+    <string name="toast_start_video">Processing</string>
+    <string name="toast_video_error">video error, retry</string>
+    <string name="toast_video_done">Processing is complete</string>
+    <string name="toast_save_video_success">保存成功</string>
+    <string name="toast_net_error">ネットワークに繋がらないため、設定をチェックしてください</string>
+    <string name="toast_error_license">認証失敗、ネットワークやライセンスをチェックしてください</string>
+    <string name="toast_sticker_pull">リスト取得中または取得失敗</string>
+    <string name="toast_take_goog_face">クリアの顔写真を撮ってください</string>
+    <string name="toast_gan_rotate">該当特殊効果は横向きがサポートしていない</string>
+    <string name="toast_gan_no_net">ネットワークが検知されていないため、再度実行してください</string>
+    <string name="toast_gan_skin_not_support">お使いのデバイスのチップは現在、この機能をサポートしていません</string>
+    <string name="toast_shoes">靴を脱いでから試着してみてください</string>
+    <!-- 吐司 end -->
+
+    <string name="video_pause">pause</string>
+    <string name="video_preview">preview</string>
+    <string name="action_tip_mouth">口を開けてください</string>
+    <string name="action_tip_blink">まばたきをしてください</string>
+    <string name="action_tip_head">頭を振ってください</string>
+    <string name="action_tip_upward">笑ってください</string>
+    <string name="action_tip_hands">ジェスチャーしてください</string>
+    <string name="action_tip_jump">眉毛を動かしてください</string>
+    <string name="action_tip_bless">合掌してください</string>
+    <string name="action_tip_heart">ハートを作ってください</string>
+    <string name="action_tip_palm">手を伸ばしてください</string>
+    <string name="action_tip_finger">人差し指を伸ばしてください</string>
+    <string name="action_tip_love">同じジェスチャーを作ってください</string>
+    <string name="action_tip_raise">拳をあげてください</string>
+    <string name="action_tip_put_mouth">唇を作ってください</string>
+    <string name="action_tip_put_nod">頷いてください</string>
+    <string name="action_tip_put_one_hand">片手でハートを作ってください</string>
+    <string name="action_tip_thumbs">サムズアップしてください</string>
+    <string name="action_tip_pistol">ピストルを作ってください</string>
+    <string name="action_tip_scissor">シザーハンズを作ってください</string>
+    <string name="action_tip_hold_a_fist">拳と掌を合わせてください</string>
+    <string name="action_tip_ok">同じジェスチャーを作ってください</string>
+    <string name="action_tip_666">同じジェスチャーを作ってください</string>
+    <string name="action_tip_lips_upward">唇を作ってください</string>
+    <string name="action_tip_thumbs_up">サムズアップしてください</string>
+    <string name="action_tip_thumb">thumb</string>
+    <string name="action_tip_screen_tap">タップしてください</string>
+    <string name="action_tip_screen_double_tap">ダブルタップしてください</string>
+
+    <!-- 全部效果 -->
+    <string name="all_2d">2D</string>
+    <string name="all_3d">3D</string>
+    <string name="all_hand">ジェスチャー</string>
+    <string name="all_bg">分割</string>
+    <string name="all_face">変形</string>
+    <string name="all_lizi">粒子効果</string>
+    <string name="all_cat">動物</string>
+    <string name="all_big">頭効果</string>
+    <string name="all_kou">顔パネル</string>
+    <string name="all_track">物体トラッキング</string>
+    <string name="all_anim">動物</string>
+    <string name="all_cartoon">マンガスタイル</string>
+    <string name="all_2ci">二次元</string>
+    <string name="all_katong">アニメ</string>
+    <string name="all_eye_shadow">アイシャドウ</string>
+    <string name="all_eye_liner">アイライン</string>
+    <string name="all_plastic">整形</string>
+    <string name="all_double_ganger">影分身</string>
+
+    <string name="faceshape_exit">Exit</string>
+
+    <string name="faceshape_success">顔の特徴点を取得しました</string>
+
+    <string name="record_ok">確認</string>
+    <string name="record_del">前に戻す</string>
+    <string name="record_cancel">取り消す</string>
+
+    <string name="tryon_cartoon_face">アニメ顔</string>
+
+    <string name="qrcode_title">QRコードをスキャン</string>
+    <string name="qrcode_dlg_title">QRコードの識別が失敗</string>
+    <string name="qrcode_dlg_content">QRコードの形式が間違ったため、生成失敗</string>
+
+    <!-- 试妆 start -->
+    <string name="try_on_back">戻る</string>
+    <string name="try_on_title1">美顔</string>
+    <string name="try_on_title_tryon">コスメ</string>
+    <string name="try_on_title_nail">ネイル</string>
+    <string name="try_on_shoes">靴</string>
+    <string name="try_on_watch">時計</string>
+    <string name="try_on_bracelet">ブレスレット</string>
+    <string name="try_on_earrings">イヤリング</string>
+    <string name="try_on_glasses">メガネ</string>
+    <string name="try_on_hat">帽子</string>
+    <string name="try_on_title2">口紅</string>
+    <string name="try_on_title3">髪染め</string>
+    <string name="try_on_title4">リップライン</string>
+    <string name="try_on_title5">アイシャドウ</string>
+
+    <string name="try_on_title6">アイライン</string>
+    <string name="try_on_title7">フレームライン</string>
+    <string name="try_on_title8">まつ毛</string>
+    <string name="try_on_title9">眉毛</string>
+    <string name="try_on_title10">頬紅</string>
+
+    <string name="try_on_title11">輪郭調整</string>
+    <string name="try_on_title12">ファンデーション</string>
+
+    <string name="tryon_style1">美顔1</string>
+    <string name="tryon_style2">美顔2</string>
+    <string name="tryon_lip_finish">素材</string>
+    <string name="tryon_color">色</string>
+    <string name="tryon_none">無</string>
+    <string name="tryon_tip">色を先に選んでください</string>
+    <string name="tryon_palette">色付け</string>
+    <string name="tryon_strength">強度</string>
+    <string name="tryon_highlight">光沢</string>
+    <string name="tryon_MidTone">灰色目盛</string>
+<!--    <string name="tryon_rgb_tip">Enter numbers manually, number range 0-255</string>-->
+    <string name="tryon_lip_line_width">横幅</string>
+    <string name="tryon_business_tip">*素材はデモ用のため、商用化不可</string>
+    <!-- 试妆 end -->
+
+    <!-- Is Me start -->
+    <string name="is_me_confirm_face">ターゲットを選定してください</string>
+    <string name="is_me_no_face">顔が検知できなかったため、ターゲットを選定してください</string>
+    <string name="is_me_more_face">顔が複数検知したため、ターゲットを選定してください</string>
+    <string name="basic_whiten_nature">ナチュラル</string>
+    <string name="basic_whiten_pink">うるおい</string>
+    <string name="basic_whiten_black">日焼け肌</string>
+    <string name="adjust_color_tone">トーン</string>
+    <string name="adjust_color_temperature">色温度</string>
+    <string name="style_meiyan1">美顔</string>
+    <string name="style_meiyan2">美顔2</string>
+    <string name="style_meiyan3">美顔3</string>
+    <string name="style_xingchen">星辰</string>
+    <string name="style_yingjun">イケメン</string>
+    <string name="style_danzhuang">薄化粧</string>
+    <string name="style_zhigan3">質感3</string>
+    <string name="style_ziran">ナチュラル</string>
+    <string name="style_suyan">素顔</string>
+    <string name="style_zhigan2">質感2</string>
+    <string name="style_zhigan1">質感1</string>
+    <string name="style_tongqin">通勤</string>
+    <string name="style_wanneng">多機能</string>
+    <string name="style_qise">ルック</string>
+    <string name="style_qingchunchulian">清純な初恋</string>
+    <string name="style_hanshixueyuan">韓国スタイル大学</string>
+    <string name="style_piyou">子供</string>
+    <string name="style_xingcheng">星辰</string>
+    <string name="style_hongsirong">レッドベルベット</string>
+    <string name="style_naixing">ミルクアーモンド</string>
+    <string name="style_baicha">ホワイトティー</string>
+    <string name="style_chayi">茶芸</string>
+    <string name="style_chulian">初恋</string>
+    <string name="style_chunyu">純粋な欲望</string>
+    <string name="style_jingzhi">細かい</string>
+    <string name="style_kushuai">カッコイイ</string>
+    <string name="style_niunai">牛乳</string>
+    <string name="style_nvshen">女神</string>
+    <string name="style_xianzimao">妖精の髪</string>
+    <string name="style_xuejie">姉</string>
+    <string name="style_xuemei">妹</string>
+    <string name="style_yangguang">日光</string>
+    <string name="style_yinglang">タイプ</string>
+    <string name="style_baobao">赤ちゃん</string>
+    <string name="style_qianjin">お嬢様</string>
+    <string name="style_keai">可愛い</string>
+    <string name="style_jingling">妖精</string>
+    <string name="style_fentu">ウサギ</string>
+    <string name="style_chunai">純愛</string>
+    <string name="style_cwei2">Cポジション2</string>
+    <string name="style_zhanlan">深い青</string>
+    <string name="style_andiao">ダークトーン</string>
+    <string name="style_baiseyanxian">ホワイトアイライン</string>
+    <string name="style_cwei">Cポジション</string>
+    <string name="style_chaoaxingzhuang">超Aスターの化粧</string>
+    <string name="style_fenhongwugu">ピンクの無実</string>
+    <string name="style_gaojijinzong">高級ゴールデンブラウン</string>
+    <string name="style_hongjiu2">レッドワイン2</string>
+    <string name="style_hongjiu">レッドワイン</string>
+    <string name="style_hunxue">混血</string>
+    <string name="style_jianling">若返り</string>
+    <string name="style_jipusai">ジプシー</string>
+    <string name="style_juqiyuanqi">オレンジエネルギー</string>
+    <string name="style_haoyun">幸運</string>
+    <string name="style_lanfeng">ブルーウィンド</string>
+    <string name="style_lanseqingtou">青い透明</string>
+    <string name="style_maoyanzhuang">キャットアイメイク</string>
+    <string name="style_meizhi">美しいほくろ</string>
+    <string name="style_menghuanzhuang">幻想的な化粧</string>
+    <string name="style_mitao">桃</string>
+    <string name="style_oumei2">西洋2</string>
+    <string name="style_putaobing">ぶどうアイス</string>
+    <string name="style_yangqi">酸素</string>
+    <string name="style_queban">そばかす</string>
+    <string name="style_shuimitao">桃</string>
+    <string name="style_shaonv">少女</string>
+    <string name="style_shaonv2">少女2</string>
+    <string name="style_suizuan">壊れたダイヤモンド</string>
+    <string name="style_tianmei">甘い</string>
+    <string name="style_weixun">酔ったよう</string>
+    <string name="style_oumei">西洋</string>
+    <string name="style_jianling2">若返り2</string>
+    <string name="style_youhua">油絵</string>
+    <string name="style_nantuan">男性アイドル</string>
+
+    <string name="style_baicha2">baicha2</string>
+    <string name="style_danyan">danyan</string>
+    <string name="style_nvgaoxuejie">nvgaoxuejie</string>
+    <string name="style_qianjinzhuang">qianjinzhuang</string>
+    <string name="style_tianxinnvgao">tianxinnvgao</string>
+    <string name="style_touxianggan">touxianggan</string>
+    <string name="style_tuxizhuang">tuxizhuang</string>
+    <!-- Is Me end -->
+
+    <!-- v9.7新增风格妆 start -->
+    <string name="str_style_elegant">エレガント</string>
+    <string name="str_style_qing_mo">青毛</string>
+    <string name="str_style_noble">貴族</string>
+    <string name="str_style_rabbit">かわいいウサギ</string>
+    <string name="str_style_sakura_girl">さくらガール</string>
+    <string name="str_style_campus_senior">キャンパスの女子高生</string>
+    <string name="str_style_orange">オレンジの韻</string>
+    <!-- v9.7新增风格妆 end -->
+
+    <!-- v9.7 新增滤镜 start -->
+    <string name="str_filter_pink1">ピンクホワイト1</string>
+    <string name="str_filter_pink2">ピンクホワイト2</string>
+    <string name="str_filter_sea_salt">海塩</string>
+    <string name="str_filter_walnut">クルミ</string>
+    <string name="str_filter_cold_white_skin">冷たく白い肌</string>
+    <string name="str_filter_brightening1">明るい肌1</string>
+    <string name="str_filter_brightening2">明るい肌2</string>
+    <string name="str_filter_yamamoto1">山本1</string>
+    <string name="str_filter_yamamoto2">山本2</string>
+    <string name="str_filter_orange">スイートオレンジ</string>
+    <string name="str_filter_coconut_grove">ココナッツの木立</string>
+    <string name="str_filter_ig_white1">IGホワイト1</string>
+    <string name="str_filter_ig_white2">IGホワイト2</string>
+    <string name="str_filter_flowers1">花1</string>
+    <string name="str_filter_flower_scene">花の風景</string>
+    <string name="str_filter_expired_volume1">期限切れのボリューム1</string>
+    <string name="str_filter_expired_volume2">期限切れのボリューム2</string>
+    <string name="str_filter_olympus_u1">オリンパスU1</string>
+    <string name="str_filter_olympus_u2">オリンパスU2</string>
+    <string name="str_filter_lowfidelity">ローファイ</string>
+    <string name="str_filter_lucky1">ラッキー1</string>
+    <string name="str_filter_lucky2">ラッキー2</string>
+    <string name="str_filter_walnut2">クルミ2</string>
+    <string name="str_filter_leica11">ライクラ11</string>
+    <string name="str_filter_leica12">ライクラ12</string>
+    <string name="str_filter_leica21">ライクラ21</string>
+    <string name="str_filter_leica22">ライクラ22</string>
+    <string name="str_filter_millennium">ミレニアム</string>
+    <string name="str_filter_natural">自然</string>
+    <!-- v9.7 新增滤镜 end -->
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="55dp"
+    android:layout_height="20dp"
+    tools:background="#000">
+
+    <TextView
+        android:id="@+id/tv_group_item"
+        style="@style/WZh3DBtnStyle"
+        android:text="@string/str_bottom_group_nose" />
+
+</LinearLayout>

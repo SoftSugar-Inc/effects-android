@@ -1,0 +1,52 @@
+[
+  {
+    "enum_des": "瘦脸",
+    "uid": "effect_beauty_reshape_shrink_face",
+    "display_des_res_id": "reshape_shrink_face",
+    "st_beauty_type": 201,
+    "select_icon_nor_res": "beauty_shrink_face_unselected",
+    "select_icon_press_res": "beauty_shrink_face_selected",
+    "def_strength": 0.05,
+    "enum_name": "TYPE_MX_1"
+  },
+  {
+    "enum_des": "大眼",
+    "uid": "effect_beauty_reshape_enlarge_eye",
+    "display_des_res_id": "reshape_enlarge_eye",
+    "st_beauty_type": 202,
+    "select_icon_nor_res": "beauty_enlargeeye_unselected",
+    "select_icon_press_res": "beauty_enlargeeye_selected",
+    "def_strength": 0.2,
+    "enum_name": "TYPE_MX_2"
+  },
+  {
+    "enum_des": "小脸",
+    "uid": "effect_beauty_reshape_shrink_jaw",
+    "display_des_res_id": "reshape_shrink_jaw",
+    "st_beauty_type": 203,
+    "select_icon_nor_res": "beauty_small_face_unselected",
+    "select_icon_press_res": "beauty_small_face_selected",
+    "def_strength": 0.2,
+    "enum_name": "TYPE_MX_3"
+  },
+  {
+    "enum_des": "窄脸",
+    "uid": "effect_beauty_reshape_narrow_face",
+    "display_des_res_id": "reshape_narrow_face",
+    "st_beauty_type": 204,
+    "select_icon_nor_res": "beauty_narrow_face_unselected",
+    "select_icon_press_res": "beauty_narrow_face_selected",
+    "def_strength": 0,
+    "enum_name": "TYPE_MX_4"
+  },
+  {
+    "enum_des": "圆眼",
+    "uid": "effect_beauty_reshape_round_eye",
+    "display_des_res_id": "reshape_round_eye",
+    "st_beauty_type": 205,
+    "select_icon_nor_res": "beauty_round_eye_unselected",
+    "select_icon_press_res": "beauty_round_eye_selected",
+    "def_strength": 0.3,
+    "enum_name": "TYPE_MX_5"
+  }
+]

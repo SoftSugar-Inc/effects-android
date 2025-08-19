@@ -1,0 +1,15 @@
+[
+  {
+    "enum_name": "TYPE_STICKER_2D",
+    "enum_des": "2D贴纸",
+    "display_des_res_id": "sticker_2D",
+    "asset_path": "local_stickers/2d",
+    "selected": true
+  },
+  {
+    "enum_name": "TYPE_STICKER_3D",
+    "enum_des": "3D贴纸",
+    "display_des_res_id": "sticker_3D",
+    "asset_path": "local_stickers/3d"
+  }
+]

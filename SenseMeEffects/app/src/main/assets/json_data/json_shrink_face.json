@@ -1,0 +1,67 @@
+[
+  {
+    "uid": "plastic_shrink_face_back",
+    "enum_des": "高阶瘦脸-返回按钮",
+    "display_des_res_id": "reshape_high_face",
+    "st_beauty_type": 101,
+    "select_icon_nor_res": "ic_camera_hight_face_back",
+    "select_icon_press_res": "ic_camera_hight_face_back",
+    "def_strength": 0,
+    "mutual": "mutual_whitten",
+    "no_seekbar": true,
+    "enum_name": "TYPE_HIGH_BACK",
+    "click_goto_enum_num": "TYPE_PLASTIC"
+  },
+  {
+    "uid": "plastic_shrink_nature_face",
+    "enum_des": "自然瘦脸",
+    "display_des_res_id": "reshape_nature",
+    "st_beauty_type": 324,
+    "select_icon_nor_res": "ic_camera_nature_face_unselected",
+    "select_icon_press_res": "ic_camera_nature_face_selected",
+    "def_strength": 0,
+    "mutual": "mutual_plasitic_face",
+    "mutual_arr":["plastic_shrink_goddess_face", "plastic_shrink_long_face", "plastic_shrink_round_face"],
+    "enum_name": "TYPE_HIGH_1",
+    "other_mutual_beauty_type": [323, 322, 321]
+  },
+  {
+    "uid": "plastic_shrink_goddess_face",
+    "enum_des": "女神瘦脸",
+    "display_des_res_id": "reshape_nvsh",
+    "st_beauty_type": 323,
+    "mutual_arr":["plastic_shrink_nature_face", "plastic_shrink_long_face", "plastic_shrink_round_face"],
+    "select_icon_nor_res": "ic_camera_nvsh_unselected",
+    "select_icon_press_res": "ic_camera_nvsh_selected",
+    "def_strength": 0,
+    "mutual": "mutual_plasitic_face",
+    "enum_name": "TYPE_HIGH_2",
+    "other_mutual_beauty_type": [324, 322, 321]
+  },
+  {
+    "uid": "plastic_shrink_long_face",
+    "enum_des": "长脸瘦脸",
+    "display_des_res_id": "reshape_long_face",
+    "st_beauty_type": 322,
+    "select_icon_nor_res": "ic_camera_long_face_unselected",
+    "select_icon_press_res": "ic_camera_long_face_selected",
+    "def_strength": 0,
+    "mutual": "mutual_plasitic_face",
+    "enum_name": "TYPE_HIGH_3",
+    "mutual_arr": ["plastic_shrink_nature_face", "plastic_shrink_goddess_face", "plastic_shrink_round_face", "plastic_shrink_round_face"],
+    "other_mutual_beauty_type": [324, 323, 321]
+  },
+  {
+    "uid": "plastic_shrink_round_face",
+    "enum_des": "圆脸瘦脸",
+    "display_des_res_id": "reshape_round_face",
+    "st_beauty_type": 321,
+    "select_icon_nor_res": "ic_camera_round_face_unselected",
+    "select_icon_press_res": "ic_camera_round_face_selected",
+    "def_strength": 0,
+    "mutual_arr": ["plastic_shrink_nature_face", "plastic_shrink_goddess_face", "plastic_shrink_long_face", "plastic_shrink_round_face"],
+    "mutual": "mutual_plasitic_face",
+    "enum_name": "TYPE_HIGH_4",
+    "other_mutual_beauty_type": [324, 323, 322]
+  }
+]

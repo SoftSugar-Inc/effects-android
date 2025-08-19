@@ -1,0 +1,46 @@
+[
+  {
+    "code": 1,
+    "uid": "base_beauty",
+    "enum_des": "基础美颜",
+    "display_des_res_id": "menu_title_base",
+    "has_base_skin_smooth": true,
+    "selected": true,
+    "enum_name": "TYPE_BASE",
+    "third_adapter_enum": ["TYPE_BASE", "TYPE_BASIC_2"],
+    "assets_path_sub_menus": ["json_data/json_base_beauty.json", "json_data/json_base_whiten2.json"],
+    "curr_sub_menu_select_uid": "whiten1",
+    "sub_selected_adapter_enum": "TYPE_BASE"
+  },
+  {
+    "code": 2,
+    "uid": "base_reshape",
+    "enum_des": "美形",
+    "third_adapter_enum": ["TYPE_RESHAPE"],
+    "assets_path_sub_menus": ["json_data/json_reshape.json"],
+    "display_des_res_id": "menu_title_reshape",
+    "enum_name": "TYPE_RESHAPE",
+    "curr_sub_menu_select_uid": "effect_beauty_reshape_shrink_face"
+  },
+  {
+    "code": 3,
+    "uid": "base_reshape",
+    "enum_des": "微整形",
+    "third_adapter_enum": ["TYPE_PLASTIC", "TYPE_MX_HIGH_THIN_FACE"],
+    "assets_path_sub_menus": ["json_data/json_plastic.json", "json_data/json_shrink_face.json"],
+    "display_des_res_id": "menu_title_plastic",
+    "enum_name": "TYPE_PLASTIC",
+    "curr_sub_menu_select_uid": "senior_sculpt",
+    "sub_selected_adapter_enum": "TYPE_PLASTIC"
+  },
+  {
+    "code": 5,
+    "uid": "base_tone",
+    "enum_des": "调整",
+    "third_adapter_enum": ["TYPE_TONE"],
+    "assets_path_sub_menus": ["json_data/json_tone_adjustment.json"],
+    "display_des_res_id": "menu_title_tone",
+    "enum_name": "TYPE_TONE",
+    "curr_sub_menu_select_uid": "effect_beauty_tone_contrast"
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "zip_name": "粉白1",
+    "dis_name_res_id": "str_filter_pink1"
+  },
+  {
+    "zip_name": "粉白2",
+    "dis_name_res_id": "str_filter_pink2"
+  },
+  {
+    "zip_name": "海盐",
+    "dis_name_res_id": "str_filter_sea_salt"
+  },
+  {
+    "zip_name": "胡桃木",
+    "dis_name_res_id": "str_filter_walnut"
+  },
+  {
+    "zip_name": "冷白皮",
+    "dis_name_res_id": "str_filter_cold_white_skin"
+  },
+  {
+    "zip_name": "明肤1",
+    "dis_name_res_id": "str_filter_brightening1"
+  },
+  {
+    "zip_name": "明肤2",
+    "dis_name_res_id": "str_filter_brightening2"
+  },
+  {
+    "zip_name": "山本1",
+    "dis_name_res_id": "str_filter_yamamoto1"
+  },
+  {
+    "zip_name": "山本2",
+    "dis_name_res_id": "str_filter_yamamoto2"
+  },
+  {
+    "zip_name": "甜橘",
+    "dis_name_res_id": "str_filter_orange"
+  },
+  {
+    "zip_name": "椰林",
+    "dis_name_res_id": "str_filter_coconut_grove"
+  },
+  {
+    "zip_name": "IG白1",
+    "dis_name_res_id": "str_filter_ig_white1"
+  },
+  {
+    "zip_name": "IG白2",
+    "dis_name_res_id": "str_filter_ig_white2"
+  },
+  {
+    "zip_name": "繁花1",
+    "dis_name_res_id": "str_filter_flowers1"
+  },
+  {
+    "zip_name": "繁花场景",
+    "dis_name_res_id": "str_filter_flower_scene"
+  },
+  {
+    "zip_name": "过期卷1",
+    "dis_name_res_id": "str_filter_expired_volume1"
+  },
+  {
+    "zip_name": "过期卷2",
+    "dis_name_res_id": "str_filter_expired_volume2"
+  },
+  {
+    "zip_name": "奥林巴斯U1",
+    "dis_name_res_id": "str_filter_olympus_u1"
+  },
+  {
+    "zip_name": "奥林巴斯U2",
+    "dis_name_res_id": "str_filter_olympus_u2"
+  },
+  {
+    "zip_name": "低保真",
+    "dis_name_res_id": "str_filter_lowfidelity"
+  },
+  {
+    "zip_name": "红运1",
+    "dis_name_res_id": "str_filter_lucky1"
+  },
+  {
+    "zip_name": "红运2",
+    "dis_name_res_id": "str_filter_lucky2"
+  },
+  {
+    "zip_name": "胡桃木2",
+    "dis_name_res_id": "str_filter_walnut2"
+  },
+  {
+    "zip_name": "莱卡11",
+    "dis_name_res_id": "str_filter_leica11"
+  },
+  {
+    "zip_name": "莱卡12",
+    "dis_name_res_id": "str_filter_leica12"
+  },
+  {
+    "zip_name": "莱卡21",
+    "dis_name_res_id": "str_filter_leica21"
+  },
+  {
+    "zip_name": "莱卡22",
+    "dis_name_res_id": "str_filter_leica22"
+  },
+  {
+    "zip_name": "千禧",
+    "dis_name_res_id": "str_filter_millennium"
+  },
+  {
+    "zip_name": "自然",
+    "dis_name_res_id": "str_filter_natural"
+  }
+]

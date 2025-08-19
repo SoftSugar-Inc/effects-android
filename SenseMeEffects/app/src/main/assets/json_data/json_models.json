@@ -1,0 +1,14 @@
+[
+  {
+    "model_asset_path": "models/M_SenseME_Face_Video_Template_p_4.0.0.model",
+    "des": "106"
+  },
+  {
+    "model_asset_path": "models/M_SenseME_Face_Extra_Advanced_Template_p_2.2.1.model",
+    "des": "282"
+  },
+  {
+    "model_asset_path": "models/M_SenseME_Segment_Skin_p_1.0.1.1.model",
+    "des": "皮肤分割"
+  }
+]

@@ -1,0 +1,75 @@
+import org.apache.tools.ant.taskdefs.condition.Os
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 34
+    buildToolsVersion '34.0.0'
+    ndkVersion "27.0.11902837"
+
+    namespace 'com.softsugar.stmobile'
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 34
+
+        versionCode 977
+        versionName "9.7.7"
+
+        externalNativeBuild {
+            cmake {
+//                arguments "-DANDROID_TOOLCHAIN=gcc"
+                cppFlags "-frtti -fexceptions -std=gnu++0x -DHAVE_PTHREADS -fpermissive -O3"
+                arguments "-DPRODUCT_CONFIG=effects"
+                arguments "-DANDROID_STL=c++_shared"
+
+                arguments "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"
+
+            }
+        }
+        ndk {
+            abiFilters 'arm64-v8a','armeabi-v7a'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    sourceSets.main {
+        jni.srcDirs = []
+        jniLibs.srcDir 'src/main/jni/prebuilt/lib'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android.libraryVariants.all { variant ->
+        if (variant.name.equalsIgnoreCase("release")) {
+            variant.outputs.all { output ->
+                def f = output.outputFileName
+                if (f != null && f.endsWith('.aar')) {
+                    output.outputFileName = "${project.name}-v${defaultConfig.versionName}-${variant.buildType.name}.aar"
+                }
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    compileOnly(files("libs/HardwareBuffer-release.aar"))
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.mockito:mockito-core:1.10.19'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+}

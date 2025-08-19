@@ -1,0 +1,49 @@
+# Android Studio项目忽略文件
+# 统一合并自所有子模块的.gitignore文件
+
+# IDE相关文件
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/libraries
+.idea/shelf/
+.idea/workspace.xml
+
+# C/C++项目文件
+.classpath
+.cproject
+.settings
+
+# Gradle相关
+.gradle
+local.properties
+SenseMeEffects/local.properties
+
+# 构建目录
+build/
+*/build/
+captures/
+SenseMeEffects/build/
+SenseMeEffects/app/build/
+SenseMeEffects/STMobileJNI/build/
+
+# Native构建相关
+.externalNativeBuild
+SenseMeEffects/.externalNativeBuild
+SenseMeEffects/app/.cxx/
+SenseMeEffects/STMobileJNI/.cxx/
+obj/
+SenseMeEffects/STMobileJNI/src/main/obj/
+
+# 系统文件
+.DS_Store
+**/.DS_Store
+
+# Gradle Wrapper
+SenseMeEffects/.gradle/
+
+# 其他临时文件
+*.tmp
+*.log
+senseme_effects/SenseMeEffects/app/.cxx
+senseme_effects/SenseMeEffects/STMobileJNI/.cxx

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CameraActivity"
+    tools:ignore="HardcodedText,SmallSp">
+
+    <softsugar.senseme.com.effects.view.widget.SlideTextView
+        android:id="@+id/ll_bottom_text"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <softsugar.senseme.com.effects.view.widget.BottomMenuView
+        android:id="@+id/bottom_menu_view"
+        style="@style/MatchWrap"
+        app:layout_constraintBottom_toTopOf="@id/ll_bottom_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/ib_show_original_bottom"
+        style="@style/BtnOriginalStyle"
+        android:layout_marginBottom="168dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <softsugar.senseme.com.effects.view.widget.RecordView
+        android:id="@+id/record_view"
+        style="@style/MatchWrap"
+        app:layout_constraintBottom_toTopOf="@id/ll_bottom_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:visibility="invisible" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_sticker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:visibility="visible">
+
+        <softsugar.senseme.com.effects.view.widget.StickerView
+            android:id="@+id/sticker_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <softsugar.senseme.com.effects.view.widget.ExposureSeekbarView
+        android:id="@+id/vertical_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginEnd="24dp"
+        android:maxHeight="2dp"
+        android:minHeight="2dp"
+        android:progressDrawable="@drawable/vertical_setting_bright_progressbar"
+        android:thumb="@drawable/icon_light"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <softsugar.senseme.com.effects.view.widget.FilterView
+        android:id="@+id/filter_view"
+        style="@style/MatchWrap"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="invisible"
+        app:adapterStyle="filter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:visibility="invisible" />
+
+    <softsugar.senseme.com.effects.view.widget.BasicEffectView
+        android:id="@+id/basic_effect_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/defaultView"
+        style="@style/WrapWrap"
+        android:visibility="visible"
+        app:constraint_referenced_ids="ll_bottom_text"
+        tools:visibility="invisible" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/gp_bottom_menu"
+        style="@style/WrapWrap"
+        app:constraint_referenced_ids="ib_show_original_bottom, bottom_menu_view" />
+
+    <softsugar.senseme.com.effects.view.widget.CameraActionBarView
+        android:id="@+id/camera_bar"
+        style="@style/MatchWrap"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

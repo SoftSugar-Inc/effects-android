@@ -1,0 +1,161 @@
+import java.text.SimpleDateFormat
+
+// 控制是否包含apk文件的开关，不带GAN打包需要去掉APK
+def includeApk = true
+
+tasks.register('a_clean') {
+    dependsOn ':app:clean'
+    dependsOn ':STMobileJNI:clean'
+    delete("$buildDir/outputs")
+    doLast {
+        println("APK has been built for clean.")
+    }
+}
+
+tasks.register('a_buildApk') {
+    dependsOn ':app:assembleDebug'
+    dependsOn ':STMobileJNI:assembleRelease'
+    doLast {
+        println("APK has been built for archiving.")
+    }
+}
+
+tasks.register('a_packageSample', Zip) {
+    archiveFileName = "sample.zip"
+    destinationDirectory = file("$buildDir/outputs")
+
+    from('.') {
+        exclude('app/src/main/assets/license/')
+
+
+
+        // 整妆
+        exclude('app/src/main/assets/makeup_blush/')
+        exclude('app/src/main/assets/makeup_brow/')
+        exclude('app/src/main/assets/makeup_eyelash/')
+        exclude('app/src/main/assets/makeup_eyeshadow/')
+        exclude('app/src/main/assets/makeup_highlight/')
+        exclude('app/src/main/assets/makeup_lip/')
+
+        // 删除滤镜
+        exclude('app/src/main/assets/filter_food/')
+        exclude('app/src/main/assets/filter_portrait/')
+        exclude('app/src/main/assets/filter_scenery/')
+        exclude('app/src/main/assets/filter_still_life/')
+        exclude('app/src/main/assets/filter_texture/')
+        exclude('app/src/main/assets/filter_film/')
+        exclude('app/src/main/assets/filter_vintage/')
+
+        // 排除不需要的文件和目录
+        exclude('**/build/')       // 排除构建输出目录
+        exclude('**/.gradle/')     // 排除 Gradle 缓存目录
+        exclude('**/.idea/')       // 排除 IntelliJ IDEA 配置文件（如果你使用的话）
+        exclude('**/local.properties') // 排除可能包含敏感信息的 local.properties 文件
+        exclude('**/.git/')        // 排除 Git 版本控制目录
+    }
+
+    from('app/src/main/assets/makeup_lip') {
+        include('6自然.png')
+        into('./app/src/main/assets/makeup_lip/')
+        include('6自然.zip')
+        into('./app/src/main/assets/makeup_lip/')
+    }
+
+    // 整妆
+    from('app/src/main/assets/makeup_blush') {
+        include('blusha.zip')
+        into('./app/src/main/assets/makeup_blush/')
+        include('blusha.png')
+        into('./app/src/main/assets/makeup_blush/')
+    }
+//
+    from('app/src/main/assets/makeup_brow') {
+        include('browB.zip')
+        into('./app/src/main/assets/makeup_brow/')
+        include('browB.png')
+        into('./app/src/main/assets/makeup_brow/')
+    }
+    from('app/src/main/assets/makeup_eyelash') {
+        include('eyelashk.zip')
+        into('./app/src/main/assets/makeup_eyelash/')
+        include('eyelashk.png')
+        into('./app/src/main/assets/makeup_eyelash/')
+    }
+    from('app/src/main/assets/makeup_eyeshadow') {
+        include('eyeshadowa.zip')
+        into('./app/src/main/assets/makeup_eyeshadow/')
+        include('eyeshadowa.png')
+        into('./app/src/main/assets/makeup_eyeshadow/')
+    }
+    from('app/src/main/assets/makeup_highlight') {
+        include('faceE.zip')
+        into('./app/src/main/assets/makeup_highlight/')
+        include('faceE.png')
+        into('./app/src/main/assets/makeup_highlight/')
+    }
+
+    // 所有类目下只保留两个滤镜
+    from('app/src/main/assets/filter_portrait') {
+        include('filter_style_babypink.model')
+        into('./app/src/main/assets/filter_portrait/')
+        include('filter_style_babypink.png')
+        into('./app/src/main/assets/filter_portrait/')
+    }
+}
+
+tasks.register('a_createArchiveZip', Zip) {
+    def currentTime = new Date()// MMddHHmmss
+    def formattedDate = new SimpleDateFormat("MMddHHmm").format(currentTime)
+
+    archiveFileName.set("archive_SenseMeEffects_${formattedDate}.zip")
+    destinationDirectory.set(file("$buildDir/outputs"))
+
+    from(file("$buildDir/outputs/sample.zip")) {
+        into('archive')
+    }
+
+    // 删除原文件
+    doLast {
+        file("$buildDir/outputs/sample.zip").delete()
+    }
+
+    // 将aar添加到package目录中
+    from('STMobileJNI/build/outputs/aar/') {
+        include '**/*.aar'
+        into 'archive'
+    }
+
+    // 模型文件
+    from('app/src/main/assets/models') {
+        into 'archive/models'
+    }
+
+    // 将新生成的apk拷贝到目录中
+    if (includeApk) {
+        from('app/build/outputs/apk/debug/') {
+            include '**/*.apk'
+            into 'archive'
+        }
+    }
+
+    // 头文件
+    from('STMobileJNI/src/main/jni/prebuilt/include') {
+        into 'archive/include'
+    }
+
+    // libs
+    from('STMobileJNI/src/main/jni/prebuilt/lib') {
+        into 'archive/libs'
+    }
+
+    // 添加 集成文档.pdf 到 AndroidSdk.zip 的 archive 目录下
+    from('docs') {
+        include '**/*.pdf'
+        into 'archive/docs'
+    }
+
+}
+
+a_buildApk.dependsOn(a_clean)
+a_createArchiveZip.dependsOn(a_buildApk, a_packageSample)
+

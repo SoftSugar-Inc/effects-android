@@ -1,0 +1,74 @@
+[
+  {
+    "enum_des": "对比度",
+    "uid": "effect_beauty_tone_contrast",
+    "display_des_res_id": "adjust_contrast",
+    "st_beauty_type": 601,
+    "select_icon_nor_res": "beauty_contrast_unselected",
+    "select_icon_press_res": "beauty_contrast_selected",
+    "def_strength": 0,
+    "enum_name": "TYPE_TZH_1"
+  },
+  {
+    "enum_des": "饱和度",
+    "uid": "effect_beauty_tone_saturation",
+    "display_des_res_id": "adjust_saturation",
+    "st_beauty_type": 602,
+    "select_icon_nor_res": "beauty_saturation_unselected",
+    "select_icon_press_res": "beauty_saturation_selected",
+    "def_strength": 0,
+    "enum_name": "TYPE_TZH_2"
+  },
+  {
+    "enum_des": "锐化",
+    "uid": "effect_beauty_tone_sharpen",
+    "display_des_res_id": "adjust_sharpen",
+    "st_beauty_type": 603,
+    "select_icon_nor_res": "beauty_sharp_unselected",
+    "select_icon_press_res": "beauty_sharp_selected",
+    "def_strength": 0.1,
+    "enum_name": "TYPE_TZH_3"
+  },
+  {
+    "enum_des": "清晰度",
+    "uid": "effect_beauty_tone_clear",
+    "display_des_res_id": "adjust_clear",
+    "st_beauty_type": 604,
+    "select_icon_nor_res": "beauty_clear_unselected",
+    "select_icon_press_res": "beauty_clear_selected",
+    "def_strength": 0.1,
+    "enum_name": "TYPE_TZH_4"
+  },
+  {
+    "enum_des": "去噪",
+    "uid": "effect_beauty_tone_denoising",
+    "display_des_res_id": "adjust_denoising",
+    "st_beauty_type": 606,
+    "select_icon_nor_res": "beauty_jiangzao_unselected",
+    "select_icon_press_res": "beauty_jiangzao_selected",
+    "def_strength": 0,
+    "enum_name": "TYPE_TZH_5"
+  },
+  {
+    "enum_des": "色调",
+    "uid": "effect_beauty_tone_color_tone",
+    "display_des_res_id": "adjust_color_tone",
+    "st_beauty_type": 607,
+    "select_icon_nor_res": "beauty_sediao_unselected",
+    "select_icon_press_res": "beauty_sediao_selected",
+    "start_center": true,
+    "def_strength": 0,
+    "enum_name": "TYPE_TZH_6"
+  },
+  {
+    "enum_des": "色温",
+    "uid": "effect_beauty_tone_color_temperature",
+    "display_des_res_id": "adjust_color_temperature",
+    "st_beauty_type": 608,
+    "start_center": true,
+    "select_icon_nor_res": "beauty_sewen_unselected",
+    "select_icon_press_res": "beauty_sewen_selected",
+    "def_strength": 0,
+    "enum_name": "TYPE_TZH_7"
+  }
+]

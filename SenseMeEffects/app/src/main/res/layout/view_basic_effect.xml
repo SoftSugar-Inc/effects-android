@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="#B2A3A3">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mTitleRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_centerVertical="true"
+        android:background="#B32A2A2A"
+        android:padding="2dp"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@id/ll_base_beauty_options"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ll_base_beauty_options"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:background="#802A2A2A"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mContentRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/mTitleRecycleView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <softsugar.senseme.com.effects.view.widget.TextThumbSeekBar
+                android:id="@+id/sb_strength"
+                style="@style/TextThumbSeekBarStyle"
+                android:layout_marginEnd="50dp"
+                android:progress="0" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ib_show_original"
+        style="@style/BtnOriginalStyle"
+        android:layout_marginBottom="239dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <softsugar.senseme.com.effects.view.widget.DrawableTextView
+        android:id="@+id/dt_basic_clear"
+        style="@style/ZeroBtnStyle"
+        android:text="@string/camera_clear"
+        app:drawableLeft="@drawable/ic_camera_zero"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <softsugar.senseme.com.effects.view.widget.DrawableTextView
+        android:id="@+id/dt_basic_reset"
+        style="@style/ZeroBtnStyle"
+        android:text="@string/camera_reset"
+        app:drawableLeft="@drawable/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rl_bottom_group"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:background="@drawable/bg_3d"
+        app:layout_constraintBottom_toTopOf="@id/dt_basic_clear"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

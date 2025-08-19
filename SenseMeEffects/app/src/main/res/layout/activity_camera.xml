@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="RtlSymmetry,UseSwitchCompatOrMaterialXml, ContentDescription">
+
+    <FrameLayout
+        android:id="@+id/id_preview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#fff">
+
+        <SurfaceView
+            android:id="@+id/surfaceViewOverlap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <android.opengl.GLSurfaceView
+            android:id="@+id/id_gl_sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <softsugar.senseme.com.effects.view.widget.FocusView
+        android:id="@+id/viewFocus"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:layout_height="match_parent"/>
+
+    <softsugar.senseme.com.effects.view.widget.TriggerTipView
+        android:id="@+id/triggerTipView"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:id="@+id/fl_container_debug"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <softsugar.senseme.com.effects.view.widget.CameraLayout
+        android:id="@+id/layout_camera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_segment_options"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/ll_segment_smooth"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="greenSmooth"/>
+
+            <SeekBar
+                android:id="@+id/sb_segment_smooth"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:progressDrawable="@drawable/bg_seekbar_progressbar"
+                android:thumb="@drawable/seekbar_thumb" />
+
+            <TextView
+                android:id="@+id/tv_segment_smooth"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="7"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_segment_smooth2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="90dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="greenSmooth2"/>
+
+            <SeekBar
+                android:id="@+id/sb_segment_smooth2"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:progressDrawable="@drawable/bg_seekbar_progressbar"
+                android:thumb="@drawable/seekbar_thumb" />
+
+            <TextView
+                android:id="@+id/tv_segment_smooth2"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_segment_strength1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="greenSimilar"/>
+
+            <SeekBar
+                android:id="@+id/sb_segment_similar"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:progressDrawable="@drawable/bg_seekbar_progressbar"
+                android:thumb="@drawable/seekbar_thumb" />
+
+            <TextView
+                android:id="@+id/tv_segment_similar"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="140"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_segment_strength2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="greenEdge"/>
+
+            <SeekBar
+                android:id="@+id/sb_segment_edge"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:progressDrawable="@drawable/bg_seekbar_progressbar"
+                android:thumb="@drawable/seekbar_thumb" />
+
+            <TextView
+                android:id="@+id/tv_segment_edge"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="60"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_segment_strength3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="180dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="colorBalance"/>
+
+            <SeekBar
+                android:id="@+id/sb_color_balance"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:progressDrawable="@drawable/bg_seekbar_progressbar"
+                android:thumb="@drawable/seekbar_thumb" />
+
+            <TextView
+                android:id="@+id/tv_color_balance"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="1.0"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_green_spill"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="210dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="spillByAlpha"/>
+
+            <SeekBar
+                android:id="@+id/sb_green_spill"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:maxHeight="2dp"
+                android:minHeight="2dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:progressDrawable="@drawable/bg_seekbar_progressbar"
+                android:thumb="@drawable/seekbar_thumb" />
+
+            <TextView
+                android:id="@+id/tv_green_spill"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:text="0.5"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Switch
+        android:id="@+id/sw_segment_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:switchMinWidth="56dp"
+        android:thumbTextPadding="14dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:textOn=""
+        android:textOff=""
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track" />
+
+    <softsugar.senseme.com.effects.view.widget.TipView
+        android:id="@+id/view_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_setting"
+            android:layout_width="wrap_content"
+            android:text="setting"
+            android:visibility="visible"
+            android:textAllCaps="false"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/iv_effect_image"
+            android:layout_width="100dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="100dp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Switch
+        android:id="@+id/sw_memory_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:switchMinWidth="56dp"
+        android:thumbTextPadding="14dp"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:textOn=""
+        android:textOff=""
+        android:thumb="@drawable/thumb"
+        android:track="@drawable/track" />
+
+</RelativeLayout>
