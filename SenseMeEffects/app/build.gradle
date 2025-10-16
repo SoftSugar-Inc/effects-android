@@ -15,7 +15,7 @@ static def packageTime() {
 
 android {
     compileSdk 34
-    ndkVersion "27.0.11902837"
+    ndkVersion "27.1.12297006"
     namespace 'softsugar.senseme.com.effects'
     defaultConfig {
         applicationId "com.softsugar.senseme.effects"
